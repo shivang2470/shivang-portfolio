@@ -1,0 +1,67 @@
+.section-title {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  
+  /* PROJECTS WRAPPER */
+  .projects-wrapper {
+    display: grid;
+    gap: 18px;
+  }
+  
+  /* MAIN PROJECT CARD */
+  .project-card {
+    background: linear-gradient(135deg, #ffffff, #f8f7ff);
+    border-radius: 18px;
+    padding: 22px 24px;
+    border: 1px solid #e9e7ff;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.12);
+  }
+  
+  /* HEADER */
+  .project-header h3 {
+    color: #4f46e5;
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+  
+  /* BODY TEXT */
+  .project-body {
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 12px;
+  }
+  
+  /* POINTS (replacing bullets) */
+  .project-points p {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  
+  /* HIGHLIGHT BOX */
+  .highlight-box {
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: 1px dashed #d9d6ff;
+    background: #fbfaff;
+    margin: 8px 0 12px 0;
+    font-size: 14px;
+  }
+  
+  /* END NOTE */
+  .project-conclusion {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #4f46e5;
+  }
+  

@@ -1,0 +1,56 @@
+.section-title {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  
+  /* EDUCATION WRAPPER */
+  .education-wrapper {
+    display: grid;
+    gap: 18px;
+  }
+  
+  /* EDUCATION CARD */
+  .edu-card {
+    background: linear-gradient(135deg, #ffffff, #f8f7ff);
+    border-radius: 18px;
+    padding: 22px 24px;
+    border: 1px solid #e9e7ff;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .edu-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.12);
+  }
+  
+  /* HEADER */
+  .edu-header h3 {
+    color: #4f46e5;
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+  
+  .edu-institute {
+    color: #666;
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  /* HIGHLIGHT BOX */
+  .highlight-box {
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: 1px dashed #d9d6ff;
+    background: #fbfaff;
+    margin: 10px 0 12px 0;
+    font-size: 14px;
+  }
+  
+  /* END NOTE */
+  .edu-conclusion {
+    margin-top: 8px;
+    line-height: 1.6;
+    color: #444;
+  }
+  

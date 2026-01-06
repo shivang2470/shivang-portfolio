@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(140, 118, 255, 0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 80% 0%,
+      rgba(255, 160, 255, 0.12),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(118, 209, 255, 0.12),
+      transparent 35%
+    ),
+    #ffffff;
+
+  color: #333;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 16px;
+  display: grid;
+  gap: 20px;
+}
+
+.section {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 22px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 12px;
+  }
+}

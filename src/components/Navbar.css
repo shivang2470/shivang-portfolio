@@ -1,0 +1,116 @@
+/* NAVBAR WRAPPER */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid #e7e7ff;
+  }
+  
+  /* INNER CONTAINER */
+  .nav-wrapper {
+    max-width: 1050px;
+    margin: auto;
+    padding: 14px 18px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* LEFT LOGO AREA */
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* CIRCLE LOGO */
+  .logo-circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+  
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+    font-weight: bold;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.32);
+  }
+  
+  /* NAME TEXT */
+  .brand {
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: .3px;
+  
+    background: linear-gradient(135deg, #4338ca, #6d28d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* NAV LINKS */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* LINK STYLE */
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    transition: color .2s ease;
+  }
+  
+  /* HOVER COLOR */
+  .nav-links a:hover {
+    color: #4f46e5;
+  }
+  
+  /* UNDERLINE ANIMATION */
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+  
+    width: 0%;
+    height: 2px;
+  
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    transition: width .25s ease;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  
+  /* ===================== */
+  /* MOBILE RESPONSIVE */
+  /* ===================== */
+  
+  @media (max-width: 700px) {
+  
+    .nav-wrapper {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-links {
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .brand {
+      font-size: 16px;
+    }
+  }
+  
