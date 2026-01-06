@@ -4,7 +4,7 @@
 
 📍 Bangalore  
 📫 **shivang.sri32@gmail.com**  
-🔗 **[LinkedIn](https://linkedin.com/in/shivang-srm)** • **[GitHub](https://github.com/shivang2470)**  
+🔗 **[LinkedIn](https://linkedin.com/in/shivang-srm)** • **[GitHub](https://github.com/shivang2470)** • **[Portfolio](https://shivang.info)**
 
 
 ---
